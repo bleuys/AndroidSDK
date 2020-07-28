@@ -4,11 +4,11 @@
 
 # Base image
 # ---------------------------------------------------------------------- #
-FROM thyrlian/android-sdk:latest
+FROM bleuys/android-sdk:latest
 
 # Author
 # ---------------------------------------------------------------------- #
-LABEL maintainer "thyrlian@gmail.com"
+LABEL maintainer "bleuys@me.com"
 
 # install and configure VNC server
 ENV USER root

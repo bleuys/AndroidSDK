@@ -8,7 +8,7 @@ FROM ubuntu:20.04
 
 # Author
 # ---------------------------------------------------------------------- #
-LABEL maintainer "thyrlian@gmail.com"
+LABEL maintainer "bleuys@me.com"
 
 # support multiarch: i386 architecture
 # install Java
