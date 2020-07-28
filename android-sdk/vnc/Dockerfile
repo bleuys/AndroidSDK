@@ -16,6 +16,7 @@ ENV DISPLAY :1
 EXPOSE 5901
 ADD vncpass.sh /tmp/
 ADD watchdog.sh /usr/local/bin/
+ADD .vncrc $HOME/.vncrc
 ADD supervisord_vncserver.conf /etc/supervisor/conf.d/
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends xfce4 xfce4-goodies xfonts-base dbus-x11 tightvncserver expect && \
